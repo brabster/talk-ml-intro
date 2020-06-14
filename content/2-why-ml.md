@@ -1,65 +1,67 @@
 ## Before Machine Learning
 
-<div class="fragment" style="font-size: 1.5em">
-a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup>
+<div class="fragment">
+$$ a^2 = b^2 + c^2 $$
 </div>
 
-<div class="fragment" style="font-size: 1.5em">
-distance = speed * time
+<div class="fragment">
+$$ distance = speed * time $$
 </div>
 
-<div class="fragment" style="font-size: 1.5em">
-k = i * c
+<div class="fragment">
+$$ CTR = 100 (clicks / views) $$
 </div>
 
 <div class="fragment" style="font-size: 2em">
 <hr />
-y = f(x)
+$$ y = f(x) $$
 </div>
 
 Note:
 - Pythagoras 500BC
 - SDT 17th Century, Galileo?
 - Virality, number of invites * conversion rate. > 1 and you're growing exponentially
-- ========================================
-- (relatively) simple relationships
-- there's a right answer
-- easy to gather data
-- apply thinking, prior work
-- stands for a long time
 
 ---
 
 ## What is `f` for...
 
-<div class="fragment"  style="font-size: 1.5em">
-Artist = f(Motorhead, Metallica)
+<div class="fragment">
+$$ Artist = f(Motorhead, Metallica) $$
 </div>
 
-<div class="fragment"  style="font-size: 1.5em">
-Spam = f(Email)
+<div class="fragment">
+$$ Spam = f(Email) $$
 </div>
 
-<div class="fragment"  style="font-size: 1.5em">
-Italian = f(English)
-</div>
-
-<div class="fragment" style="font-size: 2em">
-<hr />
-Data + Computers = f
+<div class="fragment">
+$$ Italian = f(English) $$
 </div>
 
 Note:
-- Pythagoras Prize
-- ================
 - IBM researcher "Every time I fire a linguist, the performance of the speech recognizer goes up"
 - The Unreasonable Effectiveness of Data - 2010 paper
-- =============================
+
+---
+
+## What's Different?
+
+| First | Second |
+|:-----:|:------:|
+| Sides of a Triangle | Music recommendation |
+| Speed, Distance, Time | Spam Detection     |
+| Click-Through Rate    | Translation          |
+
+Note:
+First Group
+- Relatively simple relationships
+- There's a right answer
+- Answer stays the same over time
+
+Second Group
 - Complicated rules
-- Different models for different places
-- Often constantly changing, need to continually update `f`
-- But lots of examples/data available
-- So apply computers
+- Different answers for different contexts (places, people)
+- May be constantly changing, need to continually update `f`
 
 ---
 
@@ -68,9 +70,23 @@ Note:
 <blockquote>
 <p>...the science of getting computers to act without being explicitly programmed.</p>
 <footer>
-    <cite>Andrew Ng, via https://coursera.com</cite>
+    <cite>
+        <a href="https://en.wikipedia.org/wiki/Andrew_Ng">Andrew Ng</a>
+        on <a href="https://coursera.com">Coursera</a>
+    </cite>
 </footer>
 </blockquote>
 
 Note:
+- Andrew Ng is one of the founders of Coursera and wrote its first machine learning course
+
+---
+
+## Machine Learning is...
+
+`$$ f = data + computers $$`
+
+Note:
+- Traditional programming involves humans writing rules, like the first examples
+- Machine learning applies computational power to data to derive rules from data
 
