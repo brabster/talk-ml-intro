@@ -69,12 +69,11 @@ Second Group
 
 <blockquote>
 <p>...the science of getting computers to act without being explicitly programmed.</p>
-<footer>
-    <cite>
-        <a href="https://en.wikipedia.org/wiki/Andrew_Ng">Andrew Ng</a>
-        on <a href="https://coursera.com">Coursera</a>
-    </cite>
-</footer>
+</blockquote>
+<cite>
+    <a href="https://en.wikipedia.org/wiki/Andrew_Ng">Andrew Ng</a>
+    on <a href="https://coursera.com">Coursera</a>
+</cite>
 </blockquote>
 
 Note:
