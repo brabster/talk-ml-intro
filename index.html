@@ -68,6 +68,17 @@
 				TeX: { Macros: { RR: "{\\bf R}" } }
 			}
 		});
+
+		Reveal.configure({
+			keyboard: {
+				81: function() {
+					Reveal.configure({ showNotes: false });
+				},
+				87: function() {
+					Reveal.configure({ showNotes: true });
+				}
+			}
+		});
 	</script>
 </body>
 
