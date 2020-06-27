@@ -1,7 +1,7 @@
 ## More Reading
 
 <div style="text-align: left">
-The Unreasonable Effectiveness of Data (paper)<br/>
+[The Unreasonable Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)<br/>
 Linear Regression, k-Nearest Neighbour, Decision Trees<br/>
 Practical AI & Data Skeptic (podcasts)<br/>
 [kaggle.com](https://kaggle.com) (datasets & kernels, Python & R)<br/>

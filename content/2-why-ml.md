@@ -9,7 +9,7 @@ $$ distance = speed * time $$
 </div>
 
 <div class="fragment">
-$$ CTR = 100 (clicks / views) $$
+$$ E = mc^2 $$
 </div>
 
 <div class="fragment" style="font-size: 2em">
@@ -20,7 +20,7 @@ $$ y = f(x) $$
 Note:
 - Pythagoras 500BC
 - SDT 17th Century, Galileo?
-- Virality, number of invites * conversion rate. > 1 and you're growing exponentially
+- Mass-energy equivalence equation, Einstein 1905
 
 ---
 
@@ -39,8 +39,8 @@ $$ Italian = f(English) $$
 </div>
 
 Note:
-- IBM researcher "Every time I fire a linguist, the performance of the speech recognizer goes up"
-- The Unreasonable Effectiveness of Data - 2010 paper
+- IBM researcher [Frederick Jelinek](https://en.wikipedia.org/wiki/Frederick_Jelinek) 1980s "Every time I fire a linguist, the performance of the speech recognizer goes up"
+- The Unreasonable Effectiveness of Data - 2010 Google research paper
 
 ---
 
@@ -87,5 +87,5 @@ Note:
 
 Note:
 - Traditional programming involves humans writing rules, like the first examples
-- Machine learning applies computational power to data to derive rules from data
+- Machine learning applies general techniques and computational power to derive rules from data
 
