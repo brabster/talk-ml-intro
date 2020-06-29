@@ -60,13 +60,24 @@
 			pdfSeparateFragments: false,
 			showNotes: 'separate-page',
 			// Learn about plugins: https://revealjs.com/plugins/
-			plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath],
+			plugins: [RevealMarkdown, RevealHighlight, RevealMath],
 			math: {
 				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
 				config: 'TeX-AMS_HTML-full',
 				// pass other options into `MathJax.Hub.Config()`
 				TeX: { Macros: { RR: "{\\bf R}" } }
-			}
+			},
+			notes_pointer: {
+				pointer: {
+					size: 15,  // in pixels (scaled like the rest of reveal.js)
+					color: 'rgba(255, 0, 0, 0.8)',  // something valid for css background-color
+					key: 'A'
+				},
+				notes: {
+					key: 'S'
+				}
+			},
+			dependencies: [{src: 'node_modules/reveal.js-notes-pointer/notes-pointer.js', async: true}]
 		});
 
 		Reveal.configure({
