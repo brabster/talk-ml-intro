@@ -5,29 +5,47 @@
 <img src="images/training.jpg" class="fragment" style="height: 200px"/>
 
 Note:
-- GETTING - privacy and labelling
-- CLEANING - missing, errors
-- TRAINING - numbers/strings, which features, correlation
+Getting Data
+- Where will you get the data you need?
+- Consider privacy and compliance needs
+
+Cleaning Data
+- Handling errors, missing data
+- Potentially dealing with large datasets (often not)
+
+Training a Model
+- What kind of model?
+- Feature engineering to suit the model
 
 ---
 
-## Evaluating a Model
+## Simple Model
+
+<!-- .slide: data-transition="fade-out" -->
 
 <img src="images/house_prices_linear_chart_noline.png" width="800px"/>
 
 Note:
 - Linear regression fits a line to some data points - eg. learns an 'f' between x and y
-- Combine the predictions for different features 
+- Combine the predictions for different features
+- Guess where the best-fit line goes?
 
 ---
 
 ## Linear Regression?
 
+<!-- .slide: data-transition="fade" -->
+
+$$ SalePrice = 2(LotArea) + 158000 $$
+
 <img src="images/house_prices_linear_chart.png" width="800px"/>
 
 Note:
-- Linear regression fits a line to some data points - eg. learns an 'f' between x and y
-- Combine the predictions for different features
+- Estimated sale price $$ y = 2(lot_area) + 158000 $$
+- This is the "best fit" line - average error over all the training data is minimised
+- Not where you expected?
+- Why? Dense clusters of points in 100-200k sales price range
+- Maybe one feature isn't enough
 
 ---
 
@@ -38,6 +56,7 @@ Note:
 <img src="images/top_plot_larger_text.png" width="700px"/>
 
 Note:
+- Add a second feature - Basement area
 
 ---
 
@@ -48,7 +67,10 @@ Note:
 <img src="images/top_plot_larger_text_knn_example.png" width="700px"/>
 
 Note:
-
+- Hard to visualise linear regression with a second feature...
+- ...and want to illustrate a second type of model, so use a k-nearest-neighbours model
+- Can see similar shaded points seem to cluster together, average error should be much smaller than the linear regression
+- k-NN makes softer assumptions about what's going on than linear regression but it's not practical with large datasets
 
 ---
 

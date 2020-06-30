@@ -5,13 +5,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>reveal.js</title>
+	<title>This Machine Learning Business | Tempered Works Ltd.</title>
+	<meta name="author" content="Paul Brabban" />
 
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
 	<link rel="stylesheet" href="dist/theme/black.css" id="theme">
 	<link rel="stylesheet" media="print" href="dist/theme/beige.css" id="theme">
-
+	
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 </head>
@@ -66,18 +67,7 @@
 				config: 'TeX-AMS_HTML-full',
 				// pass other options into `MathJax.Hub.Config()`
 				TeX: { Macros: { RR: "{\\bf R}" } }
-			},
-			notes_pointer: {
-				pointer: {
-					size: 15,  // in pixels (scaled like the rest of reveal.js)
-					color: 'rgba(255, 0, 0, 0.8)',  // something valid for css background-color
-					key: 'A'
-				},
-				notes: {
-					key: 'S'
-				}
-			},
-			dependencies: [{src: 'node_modules/reveal.js-notes-pointer/notes-pointer.js', async: true}]
+			}
 		});
 
 		Reveal.configure({

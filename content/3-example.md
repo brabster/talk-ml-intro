@@ -22,7 +22,7 @@ How much is it worth?
 Note:
 - the other kind of task, regression
 - predict a number, like a house sale price
-- Tiny house photo by <a href="https://unsplash.com/@larulls">Romain Rullaud<a> on Unsplash
+- Tiny house photo by <a href="https://unsplash.com/@larulls">Romain Rullaud</a> on Unsplash
 - Mansion photo by <a href="https://unsplash.com/@dannybarness">Daniel Barnes</a> on Unsplash
 
 ---
@@ -41,7 +41,8 @@ $$ SalePrice = f(LotArea, TotalBsmtSF, ...) $$
 
 Note:
 - [House prices dataset available on Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
-- ~1400 examples like 208500 = f(60, RL, 65, ...)
+- It's just a spreadsheet
+- ML training typically uses matrices - which are like spreadsheets where every value must be a number
 
 ---
 
@@ -76,8 +77,9 @@ $$ Target Variable = f(Feature, Feature, ...) $$
 |**223500**   |11250      |920        |
 
 Note:
-- Target variable is what we're trying to predict using features
+- Target variable is what we're trying to predict using features.
 - Features might be raw values as here, more often "feature engineering" will have been done to produce more viable and useful features.
+- Rows may be referred to as "examples".
 
 ---
 
