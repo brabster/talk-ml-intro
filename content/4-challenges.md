@@ -33,10 +33,22 @@ Note:
 
 ## k-Nearest Neighbours?
 
-<img src="images/top_plot.png" width="600px"/>
+<!-- .slide: data-transition="fade-out" -->
+
+<img src="images/top_plot_larger_text.png" width="700px"/>
 
 Note:
-- PYTHAGORAS!!
+
+---
+
+## k-Nearest Neighbours?
+
+<!-- .slide: data-transition="fade" -->
+
+<img src="images/top_plot_larger_text_knn_example.png" width="700px"/>
+
+Note:
+
 
 ---
 

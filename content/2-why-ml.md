@@ -39,8 +39,6 @@ $$ Italian = f(English) $$
 </div>
 
 Note:
-- IBM researcher [Frederick Jelinek](https://en.wikipedia.org/wiki/Frederick_Jelinek) 1980s "Every time I fire a linguist, the performance of the speech recognizer goes up"
-- The Unreasonable Effectiveness of Data - 2010 Google research paper
 
 ---
 
@@ -62,6 +60,11 @@ Second Group
 - Complicated rules
 - Different answers for different contexts (places, people)
 - May be constantly changing, need to continually update `f`
+
+Aside
+- IBM researcher [Frederick Jelinek](https://en.wikipedia.org/wiki/Frederick_Jelinek) 1980s "Every time I fire a linguist, the performance of the speech recognizer goes up"
+- The Unreasonable Effectiveness of Data - 2010 Google research paper
+
 
 ---
 
