@@ -2,7 +2,7 @@
 
 Cat or Turnip?
 
-<img src="images/shelby.jpg" width="500px"/>
+<img src="images/shelby.jpg" height="400px"/>
 
 Note:
 - two basic kinds of machine learning task
@@ -15,15 +15,13 @@ Note:
 How much is it worth?
 
 <div style="display: flex; justify-content: center">
-    <img src="images/tiny_house.jpg" width="300px">
-    <img src="images/mansion.jpg" width="300px">
+    <img src="images/house-keyring.jpg" height="400px">
 </div>
 
 Note:
 - the other kind of task, regression
 - predict a number, like a house sale price
-- Tiny house photo by <a href="https://unsplash.com/@larulls">Romain Rullaud</a> on Unsplash
-- Mansion photo by <a href="https://unsplash.com/@dannybarness">Daniel Barnes</a> on Unsplash
+- Tiny house photo by <a href="https://unsplash.com/@tierramallorca">Tierra Mallorca</a> on Unsplash
 
 ---
 

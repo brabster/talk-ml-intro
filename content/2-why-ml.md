@@ -48,7 +48,7 @@ Note:
 |:-----:|:------:|
 | Sides of a Triangle | Music recommendation |
 | Speed, Distance, Time | Spam Detection     |
-| Click-Through Rate    | Translation          |
+| Mass-energy    | Translation          |
 
 Note:
 First Group

@@ -95,7 +95,7 @@ Note:
 
 ## Music Recommender
 
-<img src="images/listening_to_music.jpg" height="400"/>
+<img src="images/listening_to_music.jpg" height="300"/>
 
 When confidence is low...
 
@@ -116,7 +116,7 @@ Note:
 
 ## Cancer Screener
 
-<img src="images/x-ray.jpg" height="400"/>
+<img src="images/x-ray.jpg" height="300"/>
 
 When confidence is low...
 
