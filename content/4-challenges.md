@@ -24,7 +24,7 @@ Training a Model
 
 <!-- .slide: data-transition="fade-out" -->
 
-<img src="images/house_prices_linear_chart_noline.png" width="800px"/>
+<img src="images/house_prices_linear_chart_noline.png" height="400px"/>
 
 $$ SalePrice = f(LotArea)$$
 
@@ -39,7 +39,7 @@ Note:
 
 <!-- .slide: data-transition="fade" -->
 
-<img src="images/house_prices_linear_chart.png" width="800px"/>
+<img src="images/house_prices_linear_chart.png" height="400px"/>
 
 $$ SalePrice = 2(LotArea) + 158000 $$
 
@@ -56,7 +56,7 @@ Note:
 
 <!-- .slide: data-transition="fade-out" -->
 
-<img src="images/top_plot_larger_text.png" width="700px"/>
+<img src="images/top_plot_larger_text.png" height="500px"/>
 
 Note:
 - Add a second feature - Basement area
@@ -67,7 +67,7 @@ Note:
 
 <!-- .slide: data-transition="fade" -->
 
-<img src="images/top_plot_larger_text_knn_example.png" width="700px"/>
+<img src="images/top_plot_larger_text_knn_example.png" height="500px"/>
 
 Note:
 - Hard to visualise linear regression with a second feature...
@@ -95,7 +95,7 @@ Note:
 
 ## Music Recommender
 
-<img src="images/listening_to_music.jpg" width="800"/>
+<img src="images/listening_to_music.jpg" height="400"/>
 
 When confidence is low...
 
@@ -116,7 +116,7 @@ Note:
 
 ## Cancer Screener
 
-<img src="images/x-ray.jpg" width="500"/>
+<img src="images/x-ray.jpg" height="400"/>
 
 When confidence is low...
 
@@ -141,7 +141,7 @@ Note:
 
 ### Ask Microsoft...
 
-<img class="fragment" src="images/taytweets.png" style="width: 650px"/>
+<img class="fragment" src="images/taytweets.png" style="height: 400px"/>
 
 Note:
 - March 23rd, 2016
@@ -153,7 +153,7 @@ Note:
 
 ### Ask Niantic...
 
-<img class="fragment" src="images/pokemon.png" style="width: 650px"/>
+<img class="fragment" src="images/pokemon.png" style="height: 400px"/>
 
 Note:
 - 2016 story
@@ -164,7 +164,7 @@ Note:
 
 ### Ask Amazon...
 
-<img class="fragment" src="images/amazon-hr-ai.png" style="width: 650px"/>
+<img class="fragment" src="images/amazon-hr-ai.png" style="height: 400px"/>
 
 Note:
 - 2018 story

@@ -49,7 +49,7 @@ Note:
 
 ## Example: Google Image API
 
-<img src="images/google_image_api_exam ple.png">
+<img src="images/google_image_api_example.png" height="500px">
 
 Note:
 - detected gloves in the image

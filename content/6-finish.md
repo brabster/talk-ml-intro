@@ -1,3 +1,36 @@
+## Fairness, Ethics and Harm
+
+Automated image upscaling with PULSE
+
+<img src="images/obama.png" style="width: 300px"/>
+<img class="fragment" src="images/not-obama.png" style="width: 300px"/>
+
+Covered on [theverge.com](https://www.theverge.com/21298762/face-depixelizer-ai-machine-learning-tool-pulse-stylegan-obama-bias), June 2020
+
+Note:
+- the pixelated image is Barack Obama
+- the upscaled image doesn't recognise his skin colour and physical characteristics
+
+---
+
+## Fairness, Ethics and Harm
+
+<div>
+<a href="https://sites.google.com/view/fatecv-tutorial/schedule">
+    Timnit Gebru and Emily Denton - Harm and Ethics Tutorial 
+</a>
+</div>
+<div>
+<a href="https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/">IBM Fairness 360 (open source bias & fairness toolkit)</a><br/>
+</div>
+
+Note:
+- classifying people eg. gender, age, "race" should raise alarm bells
+- facial recognition is a focus for harmful uses
+- tutorial, lots of other resources mentioned
+
+---
+
 ## More Reading
 
 <div style="text-align: left">
@@ -12,30 +45,6 @@
 <a href="https://azure.microsoft.com/en-gb/services/machine-learning/">Azure ML</a> and <a href="https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet">algorithm cheat sheet</a>, <a href="https://cloud.google.com/products/ai">Google AI</a>, <a href="https://aws.amazon.com/machine-learning/">AWS Cognitive Services</a><br/>
 
 <a href="https://machinebox.io/">Machine Box</a> (pre-trained models in docker containers)<br/>
-
----
-
-## Fairness, Ethics and Harm
-
-Automated image upscaling with PULSE
-
-<img src="images/obama.png" style="width: 300px"/>
-<img class="fragment" src="images/not-obama.png" style="width: 300px"/>
-
-Covered on [theverge.com](https://www.theverge.com/21298762/face-depixelizer-ai-machine-learning-tool-pulse-stylegan-obama-bias), June 2020
-
----
-
-## Fairness, Ethics and Harm
-
-<div>
-<a href="https://sites.google.com/view/fatecv-tutorial/schedule">
-    Timnit Gebru and Emily Denton - Harm and Ethics Tutorial 
-</a>
-</div>
-<div>
-<a href="https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/">IBM Fairness 360 (open source bias & fairness toolkit)</a><br/>
-</div>
 
 <hr/>
 <footer>
