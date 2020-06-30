@@ -7,5 +7,5 @@ The Easy, The Hard and The Cheating
 <footer>
     <a href="https://twitter.com/brabster">@brabster</a>
     |
-    <a href="https://tempered.works">Tempered Works</a>
+    <a href="https://tempered.works">https://tempered.works</a>
 </footer>

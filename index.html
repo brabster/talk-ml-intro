@@ -12,9 +12,19 @@
 	<link rel="stylesheet" href="dist/reveal.css">
 	<link rel="stylesheet" href="dist/theme/black.css" id="theme">
 	<link rel="stylesheet" media="print" href="dist/theme/beige.css" id="theme">
-	
+
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+	<style>
+		footer {
+			font-size: smaller;
+		}
+		figcaption {
+			font-size: smaller;
+			text-align: right;
+		}
+	</style>
 </head>
 
 <body>
@@ -61,7 +71,7 @@
 			pdfSeparateFragments: false,
 			showNotes: 'separate-page',
 			// Learn about plugins: https://revealjs.com/plugins/
-			plugins: [RevealMarkdown, RevealHighlight, RevealMath],
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath],
 			math: {
 				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
 				config: 'TeX-AMS_HTML-full',
@@ -72,10 +82,10 @@
 
 		Reveal.configure({
 			keyboard: {
-				81: function() {
+				81: function () {
 					Reveal.configure({ showNotes: false });
 				},
-				87: function() {
+				87: function () {
 					Reveal.configure({ showNotes: true });
 				}
 			}

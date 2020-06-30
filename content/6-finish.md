@@ -13,9 +13,33 @@
 
 <a href="https://machinebox.io/">Machine Box</a> (pre-trained models in docker containers)<br/>
 
-<a href="https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/">IBM Fairness 360 (open source bias & fairness toolkit)<<br/>
+---
 
+## Fairness, Ethics and Harm
+
+Automated image upscaling with PULSE
+
+<img src="images/obama.png" style="width: 300px"/>
+<img class="fragment" src="images/not-obama.png" style="width: 300px"/>
+
+Covered on [theverge.com](https://www.theverge.com/21298762/face-depixelizer-ai-machine-learning-tool-pulse-stylegan-obama-bias), June 2020
+
+---
+
+## Fairness, Ethics and Harm
+
+<div>
+<a href="https://sites.google.com/view/fatecv-tutorial/schedule">
+    Timnit Gebru and Emily Denton - Harm and Ethics Tutorial 
+</a>
+</div>
+<div>
+<a href="https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/">IBM Fairness 360 (open source bias & fairness toolkit)</a><br/>
 </div>
 
-<footer>@brabster | https://tempered.works</footer>
-
+<hr/>
+<footer>
+    <a href="https://twitter.com/brabster">@brabster</a>
+    |
+    <a href="https://tempered.works">https://tempered.works</a>
+</footer>

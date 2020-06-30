@@ -43,6 +43,7 @@ Note:
 - [House prices dataset available on Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 - It's just a spreadsheet
 - ML training typically uses matrices - which are like spreadsheets where every value must be a number
+- Dataset actually has over 70 columns - domain knowledge to pick these two
 
 ---
 
@@ -83,11 +84,11 @@ Note:
 
 ---
 
-## Enter Machine Learning
+## Machine Learning Workflow
 
 <img src="images/ml-flow.png" width="100%"/>
 
 Note:
- - Examples are xs and ys that we already have
- - Model is the `f` we learn
+- Examples are xs and ys that we already have
+- Model is the `f` we learn
  

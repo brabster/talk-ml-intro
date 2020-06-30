@@ -13,15 +13,14 @@ Note:
 ## Build-Your-Own Support
 
 <figure>
-    <img src="images/azure-ml-example.png" height="400px"/>
-    <figcaption>Azure Machine Learning Studio</figcaption>
+    <img src="images/google_automl.png" width="100%"/>
+    <figcaption>Google AutoML</figcaption>
 </figure>
 
 Note:
 - AWS SageMaker
 - Google AutoML
 - Azure Machine Learning Studio
-- On-Prem - Machine Box
 
 ---
 
@@ -35,15 +34,27 @@ Note:
 - ...more and growing
 
 Note:
- - known as AI Services, Cognitive Services
- - Image processing eg. find faces, transcribe text, moderation, handwriting
- - Videos - detect objects, landmarks 
- - Translation - from one language to another
- - Transcription - speech to text
- - Don't have to find and analyse your own data
- - Don't have to figure out how to train and evaluate
- - Don't have to operationalise
- - Avoid many of the costs and risks
+- known as AI Services, Cognitive Services
+- Image processing eg. find faces, transcribe text, moderation, handwriting
+- Videos - detect objects, landmarks 
+- Translation - from one language to another
+- Transcription - speech to text
+- Don't have to find and analyse your own data
+- Don't have to figure out how to train and evaluate
+- Don't have to operationalise
+- Avoid many of the costs and risks
+- On-Prem - Machine Box
+
+---
+
+## Example: Google Image API
+
+<img src="images/google_image_api_exam ple.png">
+
+Note:
+- detected gloves in the image
+- also can detect logos, colour schemes
+- [Google Image API demo](https://cloud.google.com/vision/docs/drag-and-drop)
 
 ---
 
@@ -52,6 +63,6 @@ Note:
 <img class="fragment" src="images/not-gorillas.png"/>
 
 Note:
- - canned models aren't perfect
- - can still carry unwanted biases in the data
- - need to design well to avoid creepiness
+- canned models aren't perfect
+- can still carry unwanted biases in the data
+- need to design well to avoid creepiness

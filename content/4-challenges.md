@@ -15,15 +15,18 @@ Cleaning Data
 
 Training a Model
 - What kind of model?
+- Do you need to explain decisions? (eg. finance, medicine)
 - Feature engineering to suit the model
 
 ---
 
-## Simple Model
+## Linear Regression?
 
 <!-- .slide: data-transition="fade-out" -->
 
 <img src="images/house_prices_linear_chart_noline.png" width="800px"/>
+
+$$ SalePrice = f(LotArea)$$
 
 Note:
 - Linear regression fits a line to some data points - eg. learns an 'f' between x and y
@@ -36,9 +39,9 @@ Note:
 
 <!-- .slide: data-transition="fade" -->
 
-$$ SalePrice = 2(LotArea) + 158000 $$
-
 <img src="images/house_prices_linear_chart.png" width="800px"/>
+
+$$ SalePrice = 2(LotArea) + 158000 $$
 
 Note:
 - Estimated sale price $$ y = 2(lot_area) + 158000 $$
@@ -86,9 +89,51 @@ Note:
 - deploying
   - don't bankrupt or fall over - performance, measuring
   - don't get worse - iterating, evaluating
-  - ==============================
-  - !!! recommender vs. cancer
-- ethics, explaining
+- ethics, explainability
+
+---
+
+## Music Recommender
+
+<img src="images/listening_to_music.jpg" width="800"/>
+
+When confidence is low...
+
+<div class="fragment">
+<ul>
+  <li>Play it anyway?</li>
+  <li>Stop?</li>
+<ul>
+</div>
+
+Note:
+- You are building an intelligent track autoplay feature
+- Each next track prediction has a high or low confidence
+- If confidence is low, should the service play it anyway or stop and let the user choose? 
+- Photo by [Muhammadtaha Ibrahim Ma'aji](https://unsplash.com/@planeteelevene) on Unsplash
+
+---
+
+## Cancer Screener
+
+<img src="images/x-ray.jpg" width="500"/>
+
+When confidence is low...
+
+<div class="fragment">
+<ul>
+  <li>Diagnose?</li>
+  <li>Defer to human expert?</li>
+<ul>
+</div>
+
+Note:
+- You are building an cancer detector for screening
+- Each cancer/not-cancer prediction has a high or low confidence
+- What should happen when the prediction is cancer and confidence is low? (potential false positive)
+- What should happen when the prediction is not cancer and confidence is low? (potential false negative)
+- What to do depends on context, especially with respect to potential errors
+- Photo by [Owen Beard](https://unsplash.com/@owenbeard) on Unsplash
 
 ---
 
@@ -99,8 +144,8 @@ Note:
 <img class="fragment" src="images/taytweets.png" style="width: 650px"/>
 
 Note:
- - March 23rd, 2016
- - 16 hours to takedown
+- March 23rd, 2016
+- 16 hours to takedown
 
 ---
 
@@ -111,7 +156,7 @@ Note:
 <img class="fragment" src="images/pokemon.png" style="width: 650px"/>
 
 Note:
- - 2016 story
+- 2016 story
 
 ---
 
@@ -122,5 +167,4 @@ Note:
 <img class="fragment" src="images/amazon-hr-ai.png" style="width: 650px"/>
 
 Note:
- - 2018 story
-
+- 2018 story
