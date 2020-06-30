@@ -2,6 +2,8 @@
 
 The Easy, The Hard and The Cheating
 
+Available at https://brabster.github.io/talk-ml-intro
+
 <hr />
 
 <footer>
