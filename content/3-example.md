@@ -15,8 +15,8 @@ Note:
 How much is it worth?
 
 <div style="display: flex; justify-content: center">
-    <img src="images/tiny_house.jpg">
-    <img src="images/mansion.jpg">
+    <img src="images/tiny_house.jpg" width="300px">
+    <img src="images/mansion.jpg" width="300px">
 </div>
 
 Note:
