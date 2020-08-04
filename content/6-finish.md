@@ -13,15 +13,35 @@ Note:
 
 ---
 
-## Fairness, Ethics and Harm
+## Startup Anecdote - 2017
+
+The fashion app...
+
+<img src="images/fashion.jpg" style="vertical-align: middle; height: 300px"><img>
++
+<img src="images/clothing_label.png" style="vertical-align: middle; height: 300px"><img>
+
+Note:
+- Fashion photo by <a href="https://unsplash.com/@ishamkrb">Isham Krb</a> on Unsplash
+
+---
+
+## Anecdote Catchup 2020
+
+<img src="images/lens.png" style="vertical-align: middle; height: 700px"><img>
+
+---
+
+## Reading - Fairness, Ethics and Harm
 
 <div>
-<a href="https://sites.google.com/view/fatecv-tutorial/schedule">
-    Timnit Gebru and Emily Denton - Harm and Ethics Tutorial 
-</a>
+    Timnit Gebru, Emily Denton
+    <a href="https://sites.google.com/view/fatecv-tutorial/schedule">
+        Harm and Ethics Tutorial 
+    </a>
 </div>
 <div>
-<a href="https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/">IBM Fairness 360 (open source bias & fairness toolkit)</a><br/>
+    <a href="https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/">IBM Fairness 360</a> (open source bias & fairness toolkit)<br/>
 </div>
 
 Note:
@@ -33,11 +53,12 @@ Note:
 
 ## More Reading
 
-<div style="text-align: left">
+<div style="text-align: left; font-size: smaller">
 <a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf">The Unreasonable Effectiveness of Data</a><br/>
 <a href="https://machinelearningmastery.com/linear-regression-for-machine-learning/">Linear Regression</a>, <a href="https://machinelearningmastery.com/k-nearest-neighbors-for-machine-learning/">k-Nearest Neighbour</a>, <a href="https://machinelearningmastery.com/classification-and-regression-trees-for-machine-learning/">Decision Trees</a> at <a href="https://machinelearningmastery.com">machinelearningmastery.com</a><br/>
 <a href="https://changelog.com/practicalai">Practical AI</a> & <a href="https://dataskeptic.com/">Data Skeptic</a> (podcasts)<br/>
-[kaggle.com](https://kaggle.com) (datasets & kernels, Python & R)<br/>
+<a href="https://kaggle.com">kaggle.com</a> (datasets & kernels, Python & R)<br/>
+<a href="https://coursera.com">coursera.com</a> at al. (free online courseware)<br/>
 <a href="https://azure.microsoft.com/en-gb/services/machine-learning/">Azure ML</a> and <a href="https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet">algorithm cheat sheet</a>, <a href="https://cloud.google.com/products/ai">Google AI</a>, <a href="https://aws.amazon.com/machine-learning/">AWS Cognitive Services</a><br/>
 <a href="https://machinebox.io/">Machine Box</a> (pre-trained models in docker containers)<br/>
 
@@ -47,3 +68,7 @@ Note:
     |
     <a href="https://tempered.works">https://tempered.works</a>
 </footer>
+
+Note:
+- presented with https://revealjs.com
+- thanks to Equal Experts for arranging and supporting this session

@@ -48,6 +48,7 @@ Note:
 - This is the "best fit" line - average error over all the training data is minimised
 - Not where you expected?
 - Why? Dense clusters of points in 100-200k sales price range
+- Is this a good solution for a sale price prediction product?
 - Maybe one feature isn't enough
 
 ---
@@ -60,6 +61,9 @@ Note:
 
 Note:
 - Add a second feature - Basement area
+- Hard to visualise linear regression with a second feature...
+- ...and want to illustrate a second type of model, so use a k-nearest-neighbours model
+
 
 ---
 
@@ -70,11 +74,8 @@ Note:
 <img src="images/top_plot_larger_text_knn_example.png" height="500px"/>
 
 Note:
-- Hard to visualise linear regression with a second feature...
-- ...and want to illustrate a second type of model, so use a k-nearest-neighbours model
 - Can see similar shaded points seem to cluster together, average error should be much smaller than the linear regression
 - k-NN makes softer assumptions about what's going on than linear regression but it's not practical with large datasets
-
 ---
 
 ## Is Machine Learning Easy?
@@ -93,18 +94,16 @@ Note:
 
 ---
 
-## Music Recommender
+## Music Recommender (Poll)
 
 <img src="images/listening_to_music.jpg" height="300"/>
 
 When confidence is low...
 
-<div class="fragment">
 <ul>
   <li>Play it anyway?</li>
   <li>Stop?</li>
 <ul>
-</div>
 
 Note:
 - You are building an intelligent track autoplay feature
@@ -114,18 +113,16 @@ Note:
 
 ---
 
-## Cancer Screener
+## Cancer Screener (Poll)
 
 <img src="images/x-ray.jpg" height="300"/>
 
 When confidence is low...
 
-<div class="fragment">
 <ul>
   <li>Diagnose?</li>
   <li>Defer to human expert?</li>
 <ul>
-</div>
 
 Note:
 - You are building an cancer detector for screening
