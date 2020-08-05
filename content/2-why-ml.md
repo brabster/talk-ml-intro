@@ -42,6 +42,7 @@ $$ Italian = f(English) $$
 
 Note:
 - IBM researcher [Frederick Jelinek](https://en.wikipedia.org/wiki/Frederick_Jelinek) 1980s "Every time I fire a linguist, the performance of the speech recognizer goes up"
+
 ---
 
 ## What's Different?
