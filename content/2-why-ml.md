@@ -5,7 +5,7 @@ $$ a^2 = b^2 + c^2 $$
 </div>
 
 <div class="fragment">
-$$ distance = speed * time $$
+$$ FV = PV * (1 + r)^n $$
 </div>
 
 <div class="fragment">
@@ -19,7 +19,9 @@ $$ y = f(x) $$
 
 Note:
 - Pythagoras 500BC
-- SDT 17th Century, Galileo?
+- Compound interest equation
+  - future_value = present_value * (1 + rate) ^ time
+  - Babylonians, 2000BC
 - Mass-energy equivalence equation, Einstein 1905
 
 ---
@@ -39,7 +41,7 @@ $$ Italian = f(English) $$
 </div>
 
 Note:
-
+- IBM researcher [Frederick Jelinek](https://en.wikipedia.org/wiki/Frederick_Jelinek) 1980s "Every time I fire a linguist, the performance of the speech recognizer goes up"
 ---
 
 ## What's Different?
@@ -47,7 +49,7 @@ Note:
 | First | Second |
 |:-----:|:------:|
 | Sides of a Triangle | Music recommendation |
-| Speed, Distance, Time | Spam Detection     |
+| Compound Interest | Spam Detection     |
 | Mass-energy    | Translation          |
 
 Note:
@@ -62,7 +64,6 @@ Second Group
 - May be constantly changing, need to continually update `f`
 
 Aside
-- IBM researcher [Frederick Jelinek](https://en.wikipedia.org/wiki/Frederick_Jelinek) 1980s "Every time I fire a linguist, the performance of the speech recognizer goes up"
 - The Unreasonable Effectiveness of Data - 2010 Google research paper
 
 
@@ -86,7 +87,7 @@ Note:
 
 ## Machine Learning is...
 
-`$$ f = data + computers $$`
+`$$ f = algorithm + computers + data $$`
 
 Note:
 - Traditional programming involves humans writing rules, like the first examples

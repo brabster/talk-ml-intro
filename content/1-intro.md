@@ -1,8 +1,6 @@
 
 <img src="images/ee-cover-slide.jpg"></img>
 
-Available at https://brabster.github.io/talk-ml-intro
-
 <hr />
 
 <footer>
@@ -11,15 +9,22 @@ Available at https://brabster.github.io/talk-ml-intro
     <a href="https://tempered.works">https://tempered.works</a>
 </footer>
 
-Note:
-Agenda
-- what kind of problems does machine learning solve
-- what is machine learning
-- how do you build machine learning models
-- how and why to avoid building your own models
-- resources
-- questions format
-- polls
+---
+
+## Contents
+
+- why machine learning?
+- how we build models
+- machine learning challenges
+- "cheating" at machine learning
+
+<hr />
+
+<footer>
+    <a href="https://twitter.com/brabster">@brabster</a>
+    |
+    <a href="https://tempered.works">https://tempered.works</a>
+</footer>
 
 ---
 

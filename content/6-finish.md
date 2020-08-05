@@ -1,3 +1,14 @@
+## Care Needed
+
+<img class="fragment" src="images/not-gorillas.png"/>
+
+Note:
+- canned models aren't perfect
+- can still carry unwanted biases in the data
+- need to design well to avoid creepiness
+
+---
+
 ## Fairness, Ethics and Harm
 
 Automated image upscaling with PULSE
@@ -10,25 +21,6 @@ Covered on [theverge.com](https://www.theverge.com/21298762/face-depixelizer-ai-
 Note:
 - the pixelated image is Barack Obama
 - the upscaled image doesn't recognise his skin colour and physical characteristics
-
----
-
-## Startup Anecdote - 2017
-
-The fashion app...
-
-<img src="images/fashion.jpg" style="vertical-align: middle; height: 300px"><img>
-+
-<img src="images/clothing_label.png" style="vertical-align: middle; height: 300px"><img>
-
-Note:
-- Fashion photo by <a href="https://unsplash.com/@ishamkrb">Isham Krb</a> on Unsplash
-
----
-
-## Anecdote Catchup 2020
-
-<img src="images/lens.png" style="vertical-align: middle; height: 700px"><img>
 
 ---
 
@@ -51,6 +43,18 @@ Note:
 
 ---
 
+## Recap
+
+- why machine learning
+- machine learning workflow
+- linear regression and k-nearest neighbours
+- machine learning challenges
+- you were the product owner
+- cognitive and ML services
+- ethics, bias, fairness and harm
+
+---
+
 ## More Reading
 
 <div style="text-align: left; font-size: smaller">
@@ -61,6 +65,7 @@ Note:
 <a href="https://coursera.com">coursera.com</a> at al. (free online courseware)<br/>
 <a href="https://azure.microsoft.com/en-gb/services/machine-learning/">Azure ML</a> and <a href="https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet">algorithm cheat sheet</a>, <a href="https://cloud.google.com/products/ai">Google AI</a>, <a href="https://aws.amazon.com/machine-learning/">AWS Cognitive Services</a><br/>
 <a href="https://machinebox.io/">Machine Box</a> (pre-trained models in docker containers)<br/>
+<a href="https://brabster.github.io/talk-ml-intro">https://brabster.github.io/talk-ml-intro</a> This slide deck and notes
 
 <hr/>
 <footer>

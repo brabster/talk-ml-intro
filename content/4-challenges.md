@@ -76,6 +76,7 @@ Note:
 Note:
 - Can see similar shaded points seem to cluster together, average error should be much smaller than the linear regression
 - k-NN makes softer assumptions about what's going on than linear regression but it's not practical with large datasets
+
 ---
 
 ## Is Machine Learning Easy?
@@ -91,6 +92,40 @@ Note:
   - don't bankrupt or fall over - performance, measuring
   - don't get worse - iterating, evaluating
 - ethics, explainability
+
+---
+
+## Is Machine Learning Easy?
+
+### Ask Microsoft...
+
+<img class="fragment" src="images/taytweets.png" style="height: 400px"/>
+
+Note:
+- March 23rd, 2016
+- 16 hours to takedown
+
+---
+
+## Is Machine Learning Easy?
+
+### Ask Niantic...
+
+<img class="fragment" src="images/pokemon.png" style="height: 400px"/>
+
+Note:
+- 2016 story
+
+---
+
+## Is Machine Learning Easy?
+
+### Ask Amazon...
+
+<img class="fragment" src="images/amazon-hr-ai.png" style="height: 400px"/>
+
+Note:
+- 2018 story
 
 ---
 
@@ -132,36 +167,3 @@ Note:
 - What to do depends on context, especially with respect to potential errors
 - Photo by [Owen Beard](https://unsplash.com/@owenbeard) on Unsplash
 
----
-
-## Is Machine Learning Easy?
-
-### Ask Microsoft...
-
-<img class="fragment" src="images/taytweets.png" style="height: 400px"/>
-
-Note:
-- March 23rd, 2016
-- 16 hours to takedown
-
----
-
-## Is Machine Learning Easy?
-
-### Ask Niantic...
-
-<img class="fragment" src="images/pokemon.png" style="height: 400px"/>
-
-Note:
-- 2016 story
-
----
-
-## Is Machine Learning Easy?
-
-### Ask Amazon...
-
-<img class="fragment" src="images/amazon-hr-ai.png" style="height: 400px"/>
-
-Note:
-- 2018 story

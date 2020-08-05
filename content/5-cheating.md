@@ -58,11 +58,19 @@ Note:
 
 ---
 
-## Care Needed
+## Startup Anecdote - 2017
 
-<img class="fragment" src="images/not-gorillas.png"/>
+The fashion app...
+
+<img src="images/fashion.jpg" style="vertical-align: middle; height: 300px"><img>
++
+<img src="images/clothing_label.png" style="vertical-align: middle; height: 300px"><img>
 
 Note:
-- canned models aren't perfect
-- can still carry unwanted biases in the data
-- need to design well to avoid creepiness
+- Fashion photo by <a href="https://unsplash.com/@ishamkrb">Isham Krb</a> on Unsplash
+
+---
+
+## Anecdote Catchup 2020
+
+<img src="images/lens.png" style="vertical-align: middle; height: 700px"><img>
