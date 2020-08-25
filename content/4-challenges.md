@@ -79,6 +79,24 @@ Note:
 
 ---
 
+## How do they do?
+
+| Model | Details | MAE |
+|:------|:--------|-------------------:|
+|Linear Regression|1 feat.| $57k |
+|KNN|k=3, 2 feats.| $54k |
+|Linear Regression|2 feats.| $46k |
+|Linear Regression|10 feats.| $22k |
+
+Note:
+- 1 feat: LotArea
+- 2 feats: LotArea, TotalBsmtSF
+- 10 feats: all the numeric features in the dataset
+- MAE = mean average error
+- MAE just one metric, may or may not be good for a specific usecase
+
+---
+
 ## Is Machine Learning Easy?
 
 <img src="images/survey.jpg" style="height: 200px"/>
